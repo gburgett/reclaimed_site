@@ -16,59 +16,79 @@ published: true
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     {{ 'bootstrap.css' | stylesheet_tag }}
+	{{ 'style.css' | stylesheet_tag }}
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-
-      <!-- Site Title -->
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-sm-12">
-          <h1>{{ site.name }}</h1>
-        </div>
-      </div>
-
+	  <div class="banner">
+		<div class="container" >
+			Has Reclaimed impacted your life?  Share your story <a>here</a>
+		</div>
+	  </div>
+  
       <!-- Site Navigation -->
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-sm-12">
-          <nav class="navbar navbar-default" role="navigation">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li {% if page.slug == "index" %}class="active"{% endif %}>
-                  <a href="/">Home</a>
-                </li>
-				{% nav 'site', no_wrapper: true, active_class: "active" %}
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
+	  <div class="navbar header" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li>
+			  <a href="/">TODO: Logo</a>
+			</li>
+			{% nav 'site', no_wrapper: true, active_class: "active" %}
+		  </ul>
+		</div>
+	  </div>
 
       <!-- Page Content -->
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-sm-12">
-          <h2>{{ page.title }}</h2>
-		  {% block main %}
-          Coming Soon.
-		  {% endblock %}
+	  {% block main %}
+	  <section id="slide-1" class="homeSlide">
+		<div class="bcg"
+			data-center="background-position: 50% 0px;"
+			data-top-bottom="background-position: 50% -100px;"
+			data-ancor-target="#slide-1"
+			>
+			<div class="hsContainer">
+				<div class="hsContent"
+						data-center="opacity: 1"
+						data-top="opacity: 0"
+						data-ancor-target="#slide-1 row"
+					>
+					<div class="row">		
+						<div class="col-md-10 col-md-offset-1 col-sm-12">          
+						  Reclaimed: He Knows Our Name
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	  </section>      
+	  	  
+	  <div class="row">
+		<div class="col-md-10 col-md-offset-1 col-sm-12">          
+          What we are: Reclaimed exists to redefine a sexualized culture, 
+		  restore men and women affected by the sex industry, and to reach
+		  a world hurt by the abuse of sex through the power of the
+		  church of Jesus Christ.
         </div>
-      </div>
-    </div>
+	  </div>
+	  {% endblock %}
 
     <!-- Javascripts -->
     <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     {{ 'bootstrap.min.js' | javascript_tag }}
+	{{ 'skrollr.min.js' | javascript_tag }}
+	{{ 'main.js' | javascript_tag }}
   </body>
 </html>
