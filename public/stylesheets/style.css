@@ -491,6 +491,17 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*===== Custom ====*/
+.banner {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.banner a:link {
+	color:lime;
+}
+
+
 .hsContainer {
     display: table;
     table-layout: fixed;
@@ -523,4 +534,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #slide-1 {
 	height: 100%;
+}
+
+.title {
+	background-color:white;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom:25px;
 }
