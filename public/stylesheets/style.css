@@ -39,10 +39,12 @@
 }
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../images/Dallas_Skyline.jpg')}
+#slide-1 .bcg {
+	background-image:url('../images/Dallas_Skyline.jpg');
+}
 
-.slide {
-	height: 100%;
+.slide {	
+	height: 1000px
 }
 
 #slide-2 .bcg {background-image:url('../images/back.jpg')}
@@ -62,8 +64,6 @@
 .contentrow{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
 .pheader{
