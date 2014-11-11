@@ -1,0 +1,65 @@
+# Public name of this content type
+name: Stories
+
+slug: stories
+
+# Explanation for the backoffice
+description: A story is something new in the news or some story to highlight, the most recent 4 will appear on the front page.
+
+# Default field (e.g title)
+label_field_name: title
+
+# Order of entries
+order_by: created_at
+
+# Order direction
+order_direction: desc # default: asc, also available: desc
+
+# Display entries grouped by <field> in the backoffice
+# group_by: <your field>
+
+# Activate public 'create' API (e.g for a contact form)
+# public_submission_enabled: false
+
+# Emails to be notified on new entries using the public API
+# public_submission_accounts: ['john@acme.net']
+
+# Describe each field. The name shoud always be an underscored string
+fields: 
+- title:
+    label: Title
+    type: text
+    required: true
+    hint: The title of the article, which will appear at the top of the page.
+    localized: false
+
+- body: # Name of the field
+    label: Body
+    type: text
+    required: true
+    hint: The body content of the article.  You can use HTML here.
+    localized: false
+    # Enable or not the RTE [html|text]
+    text_formatting: html
+
+- image: # Name of the field
+    label: Image
+    type: file
+    required: false
+    hint: A banner image to use for this post.  A scaled down version will be used as a thumbnail on the main page.
+    localized: false
+
+- posted_at: 
+    label: Posted at 
+    type: date_time
+    required: true
+    hint: The 'timestamp' of the story.  Stories are ordered newest to oldest in the archive.
+    localized: false
+
+- teaser:
+    label: Teaser
+    type: text
+    required: false
+    hint: A 2 or 3 line description used under the thumbnail image on the front page
+    localized: false
+    # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)

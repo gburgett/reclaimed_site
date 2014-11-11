@@ -1,0 +1,41 @@
+- "Monty Python":
+    image: samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    posted_at: '2014-11-10 21:00:00 -0600'
+    teaser: This is a sample teaser blurb.  Describe the story here.
+    body: >
+      <h1>Bridgekeeper</h1>
+      <p>I'm not a witch. What do you mean? Well, how'd you become king, then? It's only a model. No, no, no! Yes, yes. A bit. But she's got a wart. Camelot!</p>
+      <h2>Sets The Cinema Back 900 Years!</h2>
+      <p>Well, she turned me into a newt. On second thoughts, let's not go there. It is a silly place. We found them. The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king. The swallow may fly south with the sun, and the house martin or the plover may seek warmer climes in winter, yet these are not strangers to our land. On second thoughts, let's not go there. It is a silly place.</p>
+
+- "Futurama":
+    image: samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    posted_at: '2014-11-9 21:00:00 -0600'
+    teaser: This is a sample teaser blurb.  Describe the story here.
+    body: >
+      <h1>Roswell That Ends Well</h1>
+      <p>Hello Morbo, how's the family? Please, Don-Bot&hellip; look into your hard drive, and open your mercy file! You can crush me but you can't crush my spirit! Yes! In your face, Gandhi! You don't know how to do any of those.</p>
+      <h2>Leela's Homeworld</h2>
+      <p>Yes! In your face, Gandhi! You can see how I lived before I met you. For example, if you killed your grandfather, you'd cease to exist! Noooooo!</p>
+      <ul>
+      <li>Please, Don-Bot&hellip; look into your hard drive, and open your mercy file!</li>
+      <li>Shut up and get to the point!</li>
+      <li>Oh dear! She's stuck in an infinite loop, and he's an idiot! Well, that's love for you.</li>
+      <li>Ummm&hellip;to eBay?</li>
+      <li>What kind of a father would I be if I said no?</li>
+      </ul>
+      <h3>Fear of a Bot Planet</h3>
+      <p>You mean while I'm sleeping in it? I suppose I could part with 'one' and still be feared&hellip; Well, thanks to the Internet, I'm now bored with sex. Is there a place on the web that panders to my lust for violence?</p>
+      <h4>My Three Suns</h4>
+      <p>Enough about your promiscuous mother, Hermes! We have bigger problems. I found what I need. And it's not friends, it's things. Ask her how her day was. Hey, what kinda party is this? There's no booze and only one hooker.</p>
+      <ol>
+      <li>Five hours? Aw, man! Couldn't you just get me the death penalty?</li>
+      <li>It's toe-tappingly tragic!</li>
+      <li>Robot 1-X, save my friends!  And Zoidberg!</li>
+      <li>Yes! In your face, Gandhi!</li>
+      <li>Yes! In your face, Gandhi!</li>
+      </ol>
+      <h5>When Aliens Attack</h5>
+      <p>Ah, the 'Breakfast Club' soundtrack!  I can't wait til I'm old enough to feel ways about stuff! Take me to your leader! Throw her in the brig. Would you censor the Venus de Venus just because you can see her spewers?</p>
+      <h6>A Leela of Her Own</h6>
+      <p>Please, Don-Bot&hellip; look into your hard drive, and open your mercy file! For example, if you killed your grandfather, you'd cease to exist! Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages! I love you, buddy!</p>
