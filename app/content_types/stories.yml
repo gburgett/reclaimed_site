@@ -33,6 +33,14 @@ fields:
     hint: The title of the article, which will appear at the top of the page.
     localized: false
 
+- teaser:
+    label: Teaser
+    type: text
+    required: false
+    hint: A 2 or 3 line description used under the thumbnail image on the front page
+    localized: false
+    text_formatting: html
+
 - body: # Name of the field
     label: Body
     type: text
@@ -45,7 +53,7 @@ fields:
 - image: # Name of the field
     label: Image
     type: file
-    required: false
+    required: true
     hint: A banner image to use for this post.  A scaled down version will be used as a thumbnail on the main page.
     localized: false
 
@@ -55,11 +63,3 @@ fields:
     required: true
     hint: The 'timestamp' of the story.  Stories are ordered newest to oldest in the archive.
     localized: false
-
-- teaser:
-    label: Teaser
-    type: text
-    required: false
-    hint: A 2 or 3 line description used under the thumbnail image on the front page
-    localized: false
-    text_formatting: html

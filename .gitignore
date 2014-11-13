@@ -1,3 +1,4 @@
 /log
 config/deploy.yml
 Gemfile.lock
+/.push-tmp/
