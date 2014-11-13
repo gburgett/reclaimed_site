@@ -1,0 +1,36 @@
+---
+title: story template
+
+# true if the page is included in the menu
+listed: false
+
+# true if the page is published
+published: true
+
+content_type: stories
+---
+
+{% extends parent %}
+
+{% block main %}
+
+  <div class="story row">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 title">
+			<h3>{{ story.title | escape }}</h3>
+		</div>
+		<div class="col-md-3 postedat">
+			{{ story.posted_at | localized_date: '%-I:%M %p %B %-d, %Y' }}
+		</div>
+	</div>
+	{% if story.image.url %}
+	<div class="row">
+		<img src="{{ story.image.url }}" alt="{{ story.title | escape }}" />
+	</div>
+	{% endif %}	
+	<div class="article col-md-10 col-md-offset-1">
+		{{ story.body }}
+	</div>
+  </div>
+
+{% endblock %}

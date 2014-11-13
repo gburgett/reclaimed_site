@@ -1,0 +1,38 @@
+---
+title: Stories
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+position: 1
+
+---
+{% extends parent %}
+
+{% block main %}
+
+<div class="stories row">
+	<div class="col-md-10 col-md-offset-1">
+		{% for story in contents.stories %}
+		<div class="row story-archive" >
+			<div class="col-md-4">
+				{% if story.image.url %}
+					<a href="/stories/{{ story._slug }}">
+					<img src="{{ story.image.url | resize: '300x' }}" alt="{{ story.title | escape }}" />
+					</a>
+				{% endif %}			
+			</div>
+			<div class="col-md-6 col-md-offset-1" >
+				<a href="/stories/{{ story._slug }}"><h4>{{ story.title | escape }}</h4></a>
+				<div class="teaser">{{ story.teaser }}</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+{% endblock %}

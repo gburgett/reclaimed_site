@@ -77,3 +77,28 @@
 	text-align: center;
 	color: grey;
 }
+
+.story-archive {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.story .title {
+	text-align: center;
+}
+
+.story img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.story .postedat {
+	font-size: 20px;
+	margin-top: 20px;
+	color: #999;
+}
+
+.story-listing {
+	text-align: center
+}

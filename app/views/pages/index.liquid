@@ -75,10 +75,10 @@ published: true
 		</div>
 	</section>      
 	  
-  <div  data-bottom-top="background-color:hsl(0,0%,100%)"
-		data--50p-bottom-top="background-color:hsl(0, 0%, 0%)"
-		data-top-top="background-color:hsl(0, 0%, 0%)"
-		data-75p-top-bottom="background-color:hsl(0, 0%, 100%)"
+  <div  data-bottom-top="background-color:hsl(0,0%,100%); color:hsl(0,0%,0%)"
+		data--50p-bottom-top="background-color:hsl(0, 0%, 0%); color:hsl(0,75%,35%)"
+		data-top-top="background-color:hsl(0, 0%, 0%); color:hsl(0,75%,35%)"
+		data-75p-top-bottom="background-color:hsl(0, 0%, 100%); color:hsl(0,0%,0%)"
 		>
 		
 	  <div class="row contentrow">
@@ -175,6 +175,37 @@ published: true
 			</div>		
 		</div>
 	</section>
+	
+	<div class="contentrow">
+		<div class="pheader">Some stories from the news</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				{% paginate contents.stories by 4 %}
+				{% for story in paginate.collection %}
+					<div class="story-listing story col-md-6">
+						<div class="thumbnail">
+							{% if story.image.url %}
+								<a href="/stories/{{ story._slug }}">
+								<img src="{{ story.image.url | resize: '300x' }}" alt="{{ story.title | escape }}">
+								</a>
+							{% endif %}
+							<div class="caption">
+								<h3>{{ story.title | escape }}</h3>
+								<div class="teaser">{{ story.teaser }}</div>
+								<p>
+									<a href="/stories/{{ story._slug }}" class="btn btn-primary">
+										Read More
+									</a>
+								</p>
+							</div>		
+						
+						</div>
+					</div>
+				{% endfor %}
+				{% endpaginate %}
+			</div>
+		</div>
+	</div>
 
 {% endblock %}
 

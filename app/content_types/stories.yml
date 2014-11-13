@@ -62,4 +62,4 @@ fields:
     required: false
     hint: A 2 or 3 line description used under the thumbnail image on the front page
     localized: false
-    # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
+    text_formatting: html

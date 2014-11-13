@@ -1,5 +1,5 @@
 - "Monty Python":
-    image: samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
     posted_at: '2014-11-10 21:00:00 -0600'
     teaser: This is a sample teaser blurb.  Describe the story here.
     body: >
@@ -9,9 +9,9 @@
       <p>Well, she turned me into a newt. On second thoughts, let's not go there. It is a silly place. We found them. The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king. The swallow may fly south with the sun, and the house martin or the plover may seek warmer climes in winter, yet these are not strangers to our land. On second thoughts, let's not go there. It is a silly place.</p>
 
 - "Futurama":
-    image: samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
     posted_at: '2014-11-9 21:00:00 -0600'
-    teaser: This is a sample teaser blurb.  Describe the story here.
+    teaser: This one is about robots.  Check it out.
     body: >
       <h1>Roswell That Ends Well</h1>
       <p>Hello Morbo, how's the family? Please, Don-Bot&hellip; look into your hard drive, and open your mercy file! You can crush me but you can't crush my spirit! Yes! In your face, Gandhi! You don't know how to do any of those.</p>
