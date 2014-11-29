@@ -214,9 +214,12 @@ published: true
 </div>
 
     <!-- Javascripts -->
-    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    {{ 'bootstrap.min.js' | javascript_tag }}
-	{{ 'skrollr.min.js' | javascript_tag }}
-	{{ 'main.js' | javascript_tag }}
+    
+	<script type='text/javascript'>
+		window.cfgUrl = "{{ 'config.js' | javascript_url }}";
+		window.page = "{{ page.fullpath }}";
+	</script>
+	<script type="text/javascript" src="{{ 'lib/require.js' | javascript_url }}" data-main="{{ 'config.js' | javascript_url }}">
+	</script>
   </body>
 </html>
