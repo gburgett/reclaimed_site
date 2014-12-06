@@ -48,11 +48,15 @@
 		else
 			desc = null;
 		
+		var start = when.split(' to ')[0];
+		start = start.match(/\b(?:(?:Mon)|(?:Tues?)|(?:Wed(?:nes)?)|(?:Thur?s?)|(?:Fri)|(?:Sat(?:ur)?)|(?:Sun))(?:day)?\b[:\-,]?\s*[a-zA-Z]{3,9}\s+\d{1,2}\s*,?\s*\d{4}/);
+		
 		return {
 			raw: contentStr,
 			when: when,
 			where: where,
-			desc: desc
+			desc: desc,
+			start: new Date(start)
 		};
 	}
 	

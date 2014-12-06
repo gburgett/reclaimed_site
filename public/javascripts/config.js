@@ -7,7 +7,7 @@ require.config({
 		propertyParser: 'plugins/propertyParser',
 		"bootstrap": "lib/bootstrap.min",
 		"skrollr": "lib/skrollr.min",
-		"jquery": ["//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min", "lib/jquery-1.11.1.min"],
+		"jquery": ["//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min", "lib/jquery-1.11.1.min"]
 		
 	},
 	shim: {
