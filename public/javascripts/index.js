@@ -5,6 +5,7 @@ require(['jquery', 'skrollr', 'modules/gcal'], function( $, skrollr, GCal ) {
 		
 	var cal = new GCal("an8d1rjnd0qen3fq016jniq6ts%40group.calendar.google.com");
 	cal.load().done(function(rss) {
+		console.log('rss', rss);
 		rss.entries.sort(function(a, b){ 
 		 if(a.content.start < b.content.start){
 		 	return -1;

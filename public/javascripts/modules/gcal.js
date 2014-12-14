@@ -2,7 +2,7 @@
 	
 	function GCal(calendarId) {
 		this.calendarId = calendarId;
-		this.feedUrl = "https://www.google.com/calendar/feeds/" + calendarId + "/public/basic";
+		this.feedUrl = "https://www.google.com/calendar/feeds/" + calendarId + "/public/basic?seed=" + new Date().toDateString();
 		this.feed = new google.feeds.Feed(this.feedUrl);	
 		
 	};
