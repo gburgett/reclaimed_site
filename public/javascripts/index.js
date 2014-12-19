@@ -24,9 +24,16 @@ require(['jquery', 'skrollr', 'modules/gcal'], function( $, skrollr, GCal ) {
 			}
 
 		if(entry){
-			$("#nextEvent .evtTitle").text(entry.title);
+			var $title = $("<span>").text(entry.title);
+			var $desc = $("<span>").text(entry.desc);
+
+			$("#nextEvent .evtTitle").append($title).append($("<br/>")).append($desc);
 			$("#nextEvent .evtDate").text(entry.content.when);
 			$("#nextEvent .evtDesc").html(entry.content.desc);
+
+			$("#nextEvent").click(function(){
+				window.location = entry.link;
+			});
 		}
 	});
 });
