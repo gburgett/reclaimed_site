@@ -1,0 +1,44 @@
+- "Sheetal Agrawal":
+    blurb: "Sheetal likes football."
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    order: 1
+
+- "Christy Chermak":
+    blurb: "Christy helped found the sex trafficking dteam."
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    order: 2
+
+- "Lisa Lopez":
+    blurb: "Lisa has been to Congo and South Sudan."
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    order: 3
+
+- "Sylvia McCallum":
+    blurb: "Sylvia is a resident at Watermark."
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    order: 4
+
+- "Taylor Fuller Almquist":
+    blurb: "She got married this summer!"
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    order: 5
+
+- "Stephanie Woody":
+    blurb: "Stephanie is going to design our logo."
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    order: 5
+
+- "Brian Murray":
+    blurb: "Brian joined the team in September."
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    order: 5
+
+- "Kristin Mercer":
+    blurb: "Kristin helped design the website."
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    order: 5
+
+- "Benson Hines":
+    blurb: "Benson married Cate!"
+    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
+    order: 5

@@ -1,0 +1,57 @@
+# Public name of this content type
+name: People
+
+slug: people
+
+# Explanation for the backoffice
+description: A person is a blurb about someone who should appear on the About Us page.
+
+# Default field (e.g title)
+label_field_name: name
+
+# Order of entries
+order_by: order
+
+# Order direction
+order_direction: asc # default: asc, also available: desc
+
+# Display entries grouped by <field> in the backoffice
+# group_by: <your field>
+
+# Activate public 'create' API (e.g for a contact form)
+# public_submission_enabled: false
+
+# Emails to be notified on new entries using the public API
+# public_submission_accounts: ['john@acme.net']
+
+# Describe each field. The name shoud always be an underscored string
+fields: 
+- name:
+    label: Name
+    type: text
+    required: true
+    hint: The full name of the person, as it should appear on the about us page.
+    localized: false
+
+- blurb: # Name of the field
+    label: Blurb
+    type: text
+    required: true
+    hint: The short blurb appearing next to the person's photo.  You can use HTML here.
+    localized: false
+    # Enable or not the RTE [html|text]
+    text_formatting: html
+
+- image: # Name of the field
+    label: Image
+    type: file
+    required: true
+    hint: A picture of the person.
+    localized: false
+
+- order: 
+    label: Order
+    type: integer
+    required: true
+    hint: The order in which people should appear on the about us page.  Higher numbers appear later.
+    localized: false
