@@ -5,6 +5,7 @@
  * Version: 0.1.0 (2011/12/13)
  * Released under the MIT license
  */
+
 define(function () {
 
     var rParts = /^(.*)\[([^\]]*)\]$/;

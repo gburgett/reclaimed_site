@@ -1,4 +1,4 @@
-﻿define(["jquery", "goog!feeds"], function($){
+define(["jquery", "goog!feeds"], function($){
 	
 	function GCal(calendarId) {
 		this.calendarId = calendarId;

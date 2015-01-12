@@ -1,41 +1,55 @@
-- "Monty Python":
-    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
-    posted_at: '2014-11-10 21:00:00 -0600'
-    teaser: This is a sample teaser blurb.  Describe the story here.
-    body: >
-      <h1>Bridgekeeper</h1>
-      <p>I'm not a witch. What do you mean? Well, how'd you become king, then? It's only a model. No, no, no! Yes, yes. A bit. But she's got a wart. Camelot!</p>
-      <h2>Sets The Cinema Back 900 Years!</h2>
-      <p>Well, she turned me into a newt. On second thoughts, let's not go there. It is a silly place. We found them. The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king. The swallow may fly south with the sun, and the house martin or the plover may seek warmer climes in winter, yet these are not strangers to our land. On second thoughts, let's not go there. It is a silly place.</p>
-
-- "Futurama":
-    image: /samples/placeholders/600x300.jpg # Path to a file in the public/samples folder or to a remote and external file.
-    posted_at: '2014-11-9 21:00:00 -0600'
-    teaser: This one is about robots.  Check it out.
-    body: >
-      <h1>Roswell That Ends Well</h1>
-      <p>Hello Morbo, how's the family? Please, Don-Bot&hellip; look into your hard drive, and open your mercy file! You can crush me but you can't crush my spirit! Yes! In your face, Gandhi! You don't know how to do any of those.</p>
-      <h2>Leela's Homeworld</h2>
-      <p>Yes! In your face, Gandhi! You can see how I lived before I met you. For example, if you killed your grandfather, you'd cease to exist! Noooooo!</p>
-      <ul>
-      <li>Please, Don-Bot&hellip; look into your hard drive, and open your mercy file!</li>
-      <li>Shut up and get to the point!</li>
-      <li>Oh dear! She's stuck in an infinite loop, and he's an idiot! Well, that's love for you.</li>
-      <li>Ummm&hellip;to eBay?</li>
-      <li>What kind of a father would I be if I said no?</li>
-      </ul>
-      <h3>Fear of a Bot Planet</h3>
-      <p>You mean while I'm sleeping in it? I suppose I could part with 'one' and still be feared&hellip; Well, thanks to the Internet, I'm now bored with sex. Is there a place on the web that panders to my lust for violence?</p>
-      <h4>My Three Suns</h4>
-      <p>Enough about your promiscuous mother, Hermes! We have bigger problems. I found what I need. And it's not friends, it's things. Ask her how her day was. Hey, what kinda party is this? There's no booze and only one hooker.</p>
-      <ol>
-      <li>Five hours? Aw, man! Couldn't you just get me the death penalty?</li>
-      <li>It's toe-tappingly tragic!</li>
-      <li>Robot 1-X, save my friends!  And Zoidberg!</li>
-      <li>Yes! In your face, Gandhi!</li>
-      <li>Yes! In your face, Gandhi!</li>
-      </ol>
-      <h5>When Aliens Attack</h5>
-      <p>Ah, the 'Breakfast Club' soundtrack!  I can't wait til I'm old enough to feel ways about stuff! Take me to your leader! Throw her in the brig. Would you censor the Venus de Venus just because you can see her spewers?</p>
-      <h6>A Leela of Her Own</h6>
-      <p>Please, Don-Bot&hellip; look into your hard drive, and open your mercy file! For example, if you killed your grandfather, you'd cease to exist! Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages! I love you, buddy!</p>
+---
+- Bacon story - from back office:
+    _slug: bacon-story-from-back-office
+    teaser: <p>This is a test story I created in the back office. &nbsp;It's about
+      how much I love bacon.</p>
+    body: ! "<p>Bacon ipsum dolor amet capicola landjaeger ut, fugiat beef ribs id
+      cupidatat laborum. Biltong boudin nostrud fugiat. Aliquip consectetur pastrami
+      brisket pancetta anim sint strip steak hamburger ipsum tri-tip shankle eiusmod.
+      Tenderloin prosciutto frankfurter hamburger drumstick occaecat eu chicken aliqua
+      ham hock. Frankfurter pork belly ullamco ribeye cupim short loin aliquip elit
+      biltong sirloin swine flank meatball. Ut laboris ullamco magna pariatur labore
+      velit in cillum fatback tempor. Ball tip anim in sed eiusmod duis nulla.</p>\r\n<p>Frankfurter
+      pork chop enim cillum. Sed tenderloin ribeye incididunt, turkey shankle filet
+      mignon sirloin pork belly beef ribs ut. Short ribs nostrud picanha do venison
+      aliqua kielbasa ut. Fatback adipisicing jerky elit prosciutto aliquip short
+      ribs boudin biltong sirloin flank sausage nulla voluptate. Kielbasa ipsum tail
+      jowl, ad pig nulla aliqua frankfurter venison.</p>\r\n<p>&nbsp;</p>\r\n<p><img
+      src=\"http://www.shockinglydelicious.com/wp-content/uploads/2010/08/Is-anything-better-than-bacon...no_.jpg\"
+      alt=\"bacon\" width=\"640px\" /></p>\r\n<p>&nbsp;</p>\r\n<p>Ribeye ullamco ham
+      hock et boudin velit tongue quis venison beef ribs qui jowl cillum spare ribs.
+      Voluptate quis ea ut adipisicing ribeye culpa strip steak venison occaecat ullamco.
+      Pork tenderloin picanha non. Veniam chicken nisi biltong. Flank meatball ut
+      biltong cupidatat drumstick. Sint pork loin ipsum frankfurter pastrami.</p>\r\n<p>Andouille
+      rump corned beef, deserunt esse salami tail quis cupidatat t-bone fatback velit
+      veniam brisket pork. Alcatra porchetta sunt officia eiusmod shoulder prosciutto
+      irure nulla, pork loin tempor. Chuck filet mignon lorem, jowl qui sirloin velit
+      meatball aute shoulder nulla ut. In tail lorem shank beef ribs nisi, exercitation
+      frankfurter. Non lorem incididunt brisket, strip steak tongue excepteur filet
+      mignon. Picanha tri-tip pig, landjaeger tempor bresaola shankle in strip steak
+      hamburger. Ham hock dolore cow, pariatur cillum nostrud eiusmod consectetur
+      ullamco fugiat fatback.</p>\r\n<p>Minim spare ribs rump, deserunt aliquip officia
+      lorem id salami cow. Short ribs shoulder nulla sed consectetur. Mollit alcatra
+      ut, velit laboris kevin spare ribs. Ham bresaola ribeye, incididunt aute ipsum
+      nisi leberkas pariatur cow fugiat eu doner. Sausage pork chop laboris velit
+      meatloaf deserunt ball tip voluptate. Chicken corned beef magna pork, pork loin
+      in jowl cupim rump meatball incididunt. Tail dolore filet mignon cupidatat,
+      doner brisket sint sirloin eiusmod capicola sed.</p>\r\n<p>Aute pork belly quis
+      pig spare ribs reprehenderit et voluptate dolore ea beef ribs. Corned beef tri-tip
+      ea aute bacon, pork loin bresaola lorem leberkas rump dolore shoulder nostrud.
+      Turkey fugiat tenderloin pig qui ipsum frankfurter. Swine meatloaf tempor quis
+      kielbasa ground round nostrud cupim. Ham flank proident short loin spare ribs,
+      excepteur t-bone pastrami in sed turkey deserunt jerky turducken aute.</p>\r\n<p><iframe
+      width=\"854\" height=\"510\" frameborder=\"0\" allowfullscreen=\"\" src=\"//www.youtube.com/embed/JZkpwiFPues\"></iframe></p>\r\n<p>Andouille
+      pancetta eu drumstick, culpa alcatra in nostrud. Rump swine cow landjaeger ut
+      nisi. Short ribs jerky leberkas, eiusmod laborum irure ea rump in pastrami id
+      ut exercitation enim anim. Sirloin t-bone sint ipsum doner sausage fugiat, short
+      ribs nostrud. Jowl pork eiusmod tri-tip ham. Strip steak alcatra boudin biltong.</p>\r\n<p>Jowl
+      alcatra sint consequat. Sunt chicken turkey brisket lorem proident strip steak.
+      Cow leberkas t-bone, consectetur chuck spare ribs cupidatat sirloin brisket
+      enim dolore turkey. Bresaola laborum aliquip, leberkas ham porchetta shoulder
+      et eu mollit consectetur nulla. Dolore strip steak cillum dolore, beef drumstick
+      meatloaf capicola. Incididunt esse aute id aliquip porchetta consectetur ham
+      hamburger nulla.</p>"
+    image: /samples/stories/bacon-story-from-back-office/i_love_bacon.jpeg
+    posted_at: 12/18/2014 10:45
