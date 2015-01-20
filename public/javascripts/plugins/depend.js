@@ -6,6 +6,8 @@
  * Released under the MIT license
  */
 
+
+
 define(function () {
 
     var rParts = /^(.*)\[([^\]]*)\]$/;
