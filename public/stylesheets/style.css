@@ -13,6 +13,10 @@
 	color:lime;
 }
 
+.center {
+	margin:0 auto;
+	text-align: center;
+}
 
 .hsContainer {
     display: table;
@@ -41,17 +45,9 @@
     width: 100%;
 }
 
-.slide {	
-	height: 1000px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	-webkit-background-size: 100%;
-}
-
 
 .slide .contentrow  > div{
 	font-size: 14pt;
-	background-color: white
 }
 
 .title {
@@ -85,6 +81,10 @@
 	color:orange;
 }
 
+.bg-image {
+
+}
+
 .pheader{
 	margin-bottom: 10px;
 	font-size: 16pt;
@@ -92,19 +92,8 @@
 	text-align: center;
 }
 
-#slide-2 {
-	padding-top: 100px;
-}
 
-#nextEvent{
-	background-repeat: no-repeat;
-	background-position: center;
-	height:300px;
-	color:white;
-	margin-top: 40px;
-}
-
-#nextEvent:hover {
+.clickable:hover {
 	cursor:pointer;
 }
 
