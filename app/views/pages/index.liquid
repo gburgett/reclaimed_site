@@ -44,6 +44,7 @@ position: 0
 
     <![endif]-->
 
+    {% inline_editor %}
   </head>
 
   <body>
@@ -129,20 +130,16 @@ position: 0
 
 				<div class="col-xs-8 bg-opaque content-text"> 
 
-				<span>
+				  <span>
+				  {% editable_text "mission_statement", hint: "Reclaimed's mission statement" %}
+				    <h3 class="center">A Claim, Not a Mission</h3>
 
-				  <h3 class="center">A Claim, Not a Mission</h3>
-
-                  <p/>
-
-                  Reclaimed exists to redefine a sexualized culture, 
-
-				  restore men and women affected by the sex industry, and to reach
-
-				  a world hurt by the abuse of sex through the power of the
-
-				  church of Jesus Christ.
-
+                    <p/>
+                    Reclaimed exists to redefine a sexualized culture, 
+				    restore men and women affected by the sex industry, and to reach
+				    a world hurt by the abuse of sex through the power of the
+				    church of Jesus Christ.
+				  {% endeditable_text %}
 				  </span>
 
 				</div>
@@ -178,16 +175,14 @@ position: 0
 				</div>
 
 				<div class="col-sm-8 col-xs-12 content-text">
-
-					<p>
+					{% editable_text "dark_section", hint: "The text belonging in the 'dark' section at the scroll break" %}
                       DALLAS' BAD TRAFFIC<i>(K)</i> 
-
+                      <p/>
                       As you have probably heard, trafficking is a world wide problem. Women, men, and children are trafficked daily into the sex industry all over the world and 
                       Dallas is part of the problem. Sex trafficking in Dallas generates an estimated $100 million
                       annualy, making it the fifth-largest underground sex economy in America. The traffic(k) is
                       all around us and it's time to start fighting it. 
-					</p>
-
+					{% endeditable_text %}
 				</div>
 
 			</div>
@@ -203,16 +198,11 @@ position: 0
 			<div class="row">
 
 				<div class="col-sm-8 col-xs-12 content-text">
-
-					<p>
-
+				  {% editable_text "light section", hint: "The text belonging in the 'light' section immediately after the 'dark' section" %}
 						Yet, there is hope.  Through the mercy and power of Jesus Christ, Reclaimed intends to educate and equip the local church to fight
-
 						trafficking where they are.  This entails the devlopment of educational campaigns designed to raise awareness of the scope of the
-
 						problem of sex trafficking, and prepare the church to fight it.  It also includes both internal and external
-					</p>
-
+				  {% endeditable_text %}
 				</div>				
 
 				<div class="col-sm-4 hidden-xs content-image" >
