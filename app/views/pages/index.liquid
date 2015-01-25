@@ -30,7 +30,7 @@ position: 0
 
 
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{ 'bootstrap.css' | stylesheet_tag }}
 
@@ -48,14 +48,11 @@ position: 0
   </head>
 
   <body>
+  <div class="wrapper container-fluid">
 
 	  <div class="banner">
 
-		<div class="container" >
-
 			Has Reclaimed impacted your life?  Share your story <a href="TODO">here</a>
-
-		</div>
 
 	  </div>
 
@@ -106,7 +103,7 @@ position: 0
 
 
       <!-- Page Content -->
-
+      <div class="main">
 	  {% block main %}
 
 	  <section id="slide-1" class="slide" >
@@ -255,7 +252,7 @@ position: 0
 			</div>	
 
 			<div class="row">
-				<div class="container-fluid text-center">  
+				<div class="text-center">  
 
 					<div style="background-image:url('{{ 'home/upcoming_events.png' | theme_image_url | resize: '400x280'}}'); width:400px; height:280px" class="center bg-image clickable" id="nextEvent">
 
@@ -344,6 +341,7 @@ position: 0
 
 
 {% endblock %}
+</div>
 
 
 
@@ -353,7 +351,7 @@ position: 0
 
 </div>
 
-
+</div>
 
     <!-- Javascripts -->
 

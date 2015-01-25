@@ -1,12 +1,36 @@
 
 /*===== Custom ====*/
 
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
 
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
 
 .banner {
 	background-color: black;
 	color: white;
 	text-align: center;
+}
+
+.main {
+	padding-bottom:40px;
+}
+
+.footer {
+	text-align: center;
+	color: grey;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
 }
 
 .banner a:link {
@@ -108,10 +132,7 @@
 	margin-top: 20px;
 }
 
-.footer {
-	text-align: center;
-	color: grey;
-}
+
 
 .story-archive {
 	margin-top: 10px;

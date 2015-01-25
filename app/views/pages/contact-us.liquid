@@ -10,7 +10,83 @@ position: 102
 {% extends parent %}
 
 {% block main %}
+  <div class="row">
+    <div class="col-sm-5 col-sm-offset-1">
+	  <form method="POST" action="{{contents.contact_us_message.public_submission_url}}" class="form-horizontal">
+		{% csrf_param %}
+		<input type="hidden" value="/contact-us-success" name="success_callback" />
+		<input type="hidden" value="/contact-us" name="error_callback" />
 
-  <p>Hello world</p>
+		{% if contact_us_message.errors %}
+		<div class="alert alert-error">
+		  <ul>
+		    {% for error in contact_us_message.errors %}
+		      <li>{{error[0] | capitalize}} -  {{error[1]}}</li>
+		    {% endfor %}
+		  </ul>
+		</div>
+		{% endif %}
+
+		<div class="form-group">
+		  <label for="inputName" class="col-sm-2 control-label">Name</label>
+		  <div class="col-sm-10">
+		    <input type="text" class="form-control" id="inputName" name="content[name]" placeholder="Name" value="{{contact_us_message.name}}" />
+		  </div>
+		</div>
+
+		<div class="form-group">
+		  <label for="inputPhone" class="col-sm-2 control-label">Phone</label>
+		  <div class="col-sm-10">
+		    <input type="text" class="form-control" id="inputPhone" name="content[phone]" placeholder="Phone" value="{{contact_us_message.phone}}" />
+		  </div>
+		</div>
+
+		<div class="form-group">
+		  <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+		  <div class="col-sm-10">
+		    <input type="email" class="form-control" id="inputEmail" name="content[email]" placeholder="Email" value="{{contact_us_message.email}}" />
+		  </div>
+		</div>
+
+		<div class="form-group">
+		  <label for="inputName" class="col-sm-2 control-label">Question/Comment</label>
+		  <div class="col-sm-10">
+		    <textarea class="form-control" rows="5" name="content[comment]" id="inputComment">{{contact_us_message.comment}}</textarea>
+		  </div>
+		</div>
+
+		<div class="form-group">	  
+		  <label class="col-sm-2 control-label">I am interested in:</label>
+		  <div class="col-sm-10">	  		
+		  	<div class="row">
+		  	  <div class="col-sm-4">
+		        <label>
+		          <input type="checkbox" value="" name="content[interested_in_classes]" {% if contact_us_message.interested_in_classes %} checked {%endif%} >		      
+		          Curriculum classes
+		        </label>
+		      </div>
+		    </div>
+		    <div class="row">
+		      <div class="col-sm-4">
+		        <label>
+		          <input type="checkbox" id="cbOther" name="content[interested_in_other]" value="" {% if contact_us_message.interested_in_other %} checked {%endif%}>		        
+		          Other
+		        </label>
+		      </div>
+		      <div class="col-sm-8">
+		        <input type="text" class="form-control" name="content[other]" id="inputOther" disabled="true" value="{{contact_us_message.other}}" />
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<button type="submit" class="btn btn-success pull-right">Send it!</button>
+	  </form>
+    </div>
+    <div class="col-sm-5 col-sm-offset-1">
+    {% editable_text "help_text", hint: "text to the right of the contact form", format: "html" %}
+    {% endeditable_text %}
+    </div>
+  </div>
 
 {% endblock %}
