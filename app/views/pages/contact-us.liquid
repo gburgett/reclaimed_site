@@ -6,6 +6,8 @@ published: true
 cache_strategy: none
 response_type: text/html
 position: 102
+editable_elements:
+  main/help_text: ! "\n    "
 ---
 {% extends parent %}
 
@@ -61,7 +63,7 @@ position: 102
 		  	<div class="row">
 		  	  <div class="col-sm-4">
 		        <label>
-		          <input type="checkbox" value="" name="content[interested_in_classes]" {% if contact_us_message.interested_in_classes %} checked {%endif%} >		      
+		          <input type="checkbox" value="true" name="content[interested_in_classes]" {% if contact_us_message.interested_in_classes %} checked {%endif%} >		      
 		          Curriculum classes
 		        </label>
 		      </div>
@@ -69,7 +71,7 @@ position: 102
 		    <div class="row">
 		      <div class="col-sm-4">
 		        <label>
-		          <input type="checkbox" id="cbOther" name="content[interested_in_other]" value="" {% if contact_us_message.interested_in_other %} checked {%endif%}>		        
+		          <input type="checkbox" value="true" id="cbOther" name="content[interested_in_other]"  {% if contact_us_message.interested_in_other %} checked {%endif%}>		        
 		          Other
 		        </label>
 		      </div>

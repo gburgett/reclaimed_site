@@ -4,33 +4,49 @@ description: The submitted contact forms on the contact us page.
 slug: contact_us_message
 label_field_name: name
 public_submission_enabled: true
+order_by: created_at
 order_direction: desc
 fields:
 - name:
     label: Name
     type: string
     required: true
+    unique: false
+    localized: false
 - phone:
     label: Phone
     type: string
     required: false
+    unique: false
+    localized: false
 - email:
     label: Email
     type: string
     required: true
+    unique: false
+    localized: false
 - comment:
     label: Question/Comment
     type: text
     required: true
+    unique: false
+    localized: false
+    text_formatting: none
 - interested_in_classes:
     label: Curriculum classes
     type: boolean
     required: false
+    unique: false
+    localized: false
 - interested_in_other:
     label: other checked
     type: boolean
     required: false
+    unique: false
+    localized: false
 - other:
     label: Other
     type: string
     required: false
+    unique: false
+    localized: false

@@ -24,10 +24,10 @@
     blurb: She got married this summer!
     image: /samples/people/taylor-fuller-almquist/600x300.jpg
     order: 5
-- Stephanie Woody:
-    _slug: stephanie-woody
-    blurb: Stephanie is going to design our logo.
-    image: /samples/people/stephanie-woody/600x300.jpg
+- Benson Hines:
+    _slug: benson-hines
+    blurb: Benson married Cate!
+    image: /samples/people/benson-hines/600x300.jpg
     order: 5
 - Brian Murray:
     _slug: brian-murray
@@ -39,8 +39,8 @@
     blurb: Kristin helped design the website.
     image: /samples/people/kristin-mercer/600x300.jpg
     order: 5
-- Benson Hines:
-    _slug: benson-hines
-    blurb: Benson married Cate!
-    image: /samples/people/benson-hines/600x300.jpg
+- Stephanie Woody:
+    _slug: stephanie-woody
+    blurb: Stephanie is going to design our logo.
+    image: /samples/people/stephanie-woody/600x300.jpg
     order: 5

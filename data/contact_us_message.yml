@@ -1,0 +1,32 @@
+---
+- test4:
+    _slug: test4
+    phone: 999-555-1234
+    email: abc@def.com
+    comment: hopefully the email is sent...
+    interested_in_classes: false
+    interested_in_other: true
+    other: Something else entirely!
+- test3:
+    _slug: test3
+    phone: ''
+    email: abc@def.com
+    comment: another question
+    interested_in_classes: true
+    interested_in_other: true
+    other: ''
+- test2:
+    _slug: test2
+    phone: ''
+    email: abc@def.com
+    comment: blahblah
+    interested_in_classes: false
+    interested_in_other: false
+- test:
+    _slug: test
+    phone: 999-999-9999
+    email: abc@def.com
+    comment: I have a question.
+    interested_in_classes: false
+    interested_in_other: false
+    other: Something else entirely!
