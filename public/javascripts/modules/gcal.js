@@ -2,7 +2,7 @@ define(["jquery", "goog!feeds"], function($){
 	
 	function GCal(calendarId) {
 		this.calendarId = calendarId;
-		this.feedUrl = "https://www.google.com/calendar/feeds/" + calendarId + "/public/basic?seed=" + new Date().toDateString();
+		this.feedUrl = "https://www.google.com/calendar/feeds/" + calendarId + "/public/basic?seed=2" + new Date().toDateString();
 		this.feed = new google.feeds.Feed(this.feedUrl);	
 		
 	};
