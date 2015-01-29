@@ -19,6 +19,7 @@ html, body {
 	background-color: black;
 	color: white;
 	text-align: center;
+	background-size:cover;
 }
 
 .main {
@@ -139,6 +140,15 @@ html, body {
 	margin-top: 20px;
 }
 
+.linkset a {
+	color: darkgreen;
+	font-size: large;
+}
+
+.linkset div.row {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 
 
 .story-archive {
