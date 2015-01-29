@@ -1,9 +1,11 @@
 require(['jquery', 'skrollr', 'modules/gcal'], function( $, skrollr, GCal ) {
-	window.skrollerobj = skrollr.init({
-			forceHeight: false
-		});	
+	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+	    skrollr.init({
+	        forceHeight: false
+	    });
+	}
 		
-	var cal = new GCal("an8d1rjnd0qen3fq016jniq6ts%40group.calendar.google.com");
+	var cal = new GCal("67gfi1ooq8ie2rs1h5smhmm2pg@group.calendar.google.com");
 	cal.load().done(function(rss) {
 		console.log('rss', rss);
 		rss.entries.sort(function(a, b){ 
@@ -32,7 +34,7 @@ require(['jquery', 'skrollr', 'modules/gcal'], function( $, skrollr, GCal ) {
 			$("#nextEvent .evtDesc").html(entry.content.desc);
 
 			$("#nextEvent").click(function(){
-				window.location = entry.link;
+				window.location = rss.link;
 			});
 		}
 	});
