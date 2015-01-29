@@ -8,6 +8,7 @@
 
 
 
+
 define(function () {
 
     var rParts = /^(.*)\[([^\]]*)\]$/;

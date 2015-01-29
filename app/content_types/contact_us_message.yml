@@ -3,7 +3,6 @@ name: Contact Us Messages
 description: The submitted contact forms on the contact us page.
 slug: contact_us_message
 label_field_name: name
-public_submission_enabled: true
 order_by: created_at
 order_direction: desc
 fields:
