@@ -20,7 +20,11 @@ html, body {
 	background-color: black;
 	color: white;
 	text-align: center;
-	background-size:cover;
+	background-size: 100% 100%;
+}
+
+.navbar {
+	margin-bottom: 0;
 }
 
 .main {
@@ -40,10 +44,6 @@ html, body {
 
 .big-text {
 	font-size: x-large;
-}
-
-.banner a:link {
-	color:lime;
 }
 
 .center {
@@ -69,15 +69,12 @@ html, body {
     padding: 0 8%;
     text-align: center
 }
+
 .bcg {
+	min-height: 750px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed !important;
-    background-size: cover !important;
-    height: 100%;
-    width: 100%;
 }
-
 
 .slide .contentrow  > div{
 	font-size: 14pt;
@@ -104,14 +101,16 @@ html, body {
 }
 
 .bg-opaque {
-	background-color: hsla(0, 100%, 100%, 0.75);
+	background-color: hsla(0, 100%, 100%, 0.8);
 	border-radius: 12px;
-}
-
-.bg-opaque .content-text span {
 	font-weight: bold;
 	font-size: 20;
-	color:orange;
+	color:black;
+}
+
+.bg-opaque-invert {
+	background-color: hsla(0, 100%, 0%, 0.75);
+	border-radius: 12px;
 }
 
 .bg-image {
@@ -134,11 +133,12 @@ html, body {
 #nextEvent h4 {
 	padding-right: 100px;
 	padding-top: 40px;
-	margin-bottom: 40px;
 }
 
-#nextEvent div {
-	margin-top: 20px;
+.evtText {
+	margin-top: 125px;
+	width: 80%;
+	color: white;
 }
 
 .linkset a {
@@ -175,4 +175,18 @@ html, body {
 
 .story-listing {
 	text-align: center
+}
+
+@media (min-width: 700px) {
+	.bcg {
+	    background-attachment: fixed !important;
+	    background-size: cover !important;
+	}
+}
+
+@media (max-width: 700px)  {
+	.bcg {
+	    background-attachment: fixed !important;
+	    background-size: 100% 100% !important;
+	}
 }

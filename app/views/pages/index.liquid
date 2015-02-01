@@ -65,73 +65,56 @@ editable_elements:
   </head>
 
   <body>
-  <div class="wrapper container-fluid">
   
 
-      <!-- Site Navigation -->
+  <!-- Site Navigation -->
 
-	  <div class="navbar header" role="navigation">
+  <nav class="navbar navbar-default" role="navigation">
+   <div class="container-fluid">
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Home</a>
+    </div>
 
-		<!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-		<div class="navbar-header">
+	    <ul class="nav navbar-nav">
 
-		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		  {% nav 'site', no_wrapper: true, active_class: "active", bootstrap: true %}
 
-			<span class="sr-only">Toggle navigation</span>
-
-			<span class="icon-bar"></span>
-
-			<span class="icon-bar"></span>
-
-			<span class="icon-bar"></span>
-
-		  </button>
-
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-		  <ul class="nav navbar-nav">
-
-			<li>
-
-			  <a href="/">Home</a>
-
-			</li>
-
-			{% nav 'site', no_wrapper: true, active_class: "active", bootstrap: true %}
-
-		  </ul>
-
-		</div>
+	    </ul>
 
 	  </div>
+	</div>
+
+  </nav>
+
+
+  <div class="wrapper container-fluid">
 
 
 
       <!-- Page Content -->
-      <div class="main">
+      <div class="main row">
 	  {% block main %}
 
-	  <section id="slide-1" class="slide" >
 
-		<div class="bcg" style="background-image:url('{{ 'home/home_cover.png' | theme_image_url }}'); height:1000px;"
+		<div class="row bcg" style="background-image:url('{{ 'home/Homepage-Header-Girl-in-Airport-Edit.jpg' | theme_image_url }}');"
 			>
 
-			<div class="row">				
-
-				<div class="col-md-10 col-md-offset-1 col-sm-12 ">          
-
-					<h2 class="title nobg">Reclaimed: He Knows Our Name</h2>
-
-				</div>
-
+			<div class="row">
+				<img src="{{ 'home/Homepage-Logo-Transparent_03.png' | theme_image_url }}" 
+				  style="margin-top: 125px; margin-left: 50px;" 
+				/>
 			</div>
 
-			<div class="row" style="margin-top:400px">
+			<div class="row" style="margin-top:200px">
 
 				<div class="col-xs-2"></div>
 
@@ -155,73 +138,54 @@ editable_elements:
 
 		</div>
 
-		
-
-	</section>    	
+			
 
 	  
 
-  <div data-bottom-top="background-color:hsl(0,0%,100%); color:hsl(0,0%,0%)"
+  <div data-bottom-top="background-color:hsl(0, 0%,100%); color:hsl(0,0%,0%)"
 		data-center-top="background-color:hsl(0, 0%, 0%); color:hsl(0,75%,35%)"
 		data-100-top-top="background-color:hsl(0, 0%, 0%); color:hsl(0,75%,35%)"
 		data-100-top-center="background-color:hsl(0, 0%, 100%); color:hsl(0,0%,0%)"
+		class="row"
 		>
 
 		
 
+
+	<div class="col-sm-10 col-sm-offset-1">
 	  <div class="row contentrow">
+		<div class="col-sm-4 hidden-xs content-image" >
 
-		<div class="col-sm-10 col-sm-offset-1">
-
-			<div class="row">
-
-				<div class="col-sm-4 hidden-xs content-image" >
-
-					<img src="{{ 'home/hook_1.png' | theme_image_url | resize: '300x' }}" alt="A sad image" />
-
-				</div>
-
-				<div class="col-sm-8 col-xs-12 content-text">
-					{% editable_text "dark_section", hint: "The text belonging in the 'dark' section at the scroll break" %}
-                      DALLAS' BAD TRAFFIC<i>(K)</i> 
-                      <p/>
-                      As you have probably heard, trafficking is a world wide problem. Women, men, and children are trafficked daily into the sex industry all over the world and 
-                      Dallas is part of the problem. Sex trafficking in Dallas generates an estimated $100 million
-                      annualy, making it the fifth-largest underground sex economy in America. The traffic(k) is
-                      all around us and it's time to start fighting it. 
-					{% endeditable_text %}
-				</div>
-
-			</div>
+			<img src="{{ 'home/Homepage-Ads-Medium-Dallas-Is-Bad-Traffic_06.jpg' | theme_image_url  }}" alt="Dallas' Bad Traffic" />
 
 		</div>
 
+		<div class="col-sm-8 col-xs-12 content-text">
+			{% editable_text "dark_section", hint: "The text belonging in the 'dark' section at the scroll break" %}
+              DALLAS' BAD TRAFFIC<i>(K)</i> 
+              <p/>
+              As you have probably heard, trafficking is a world wide problem. Women, men, and children are trafficked daily into the sex industry all over the world and 
+              Dallas is part of the problem. Sex trafficking in Dallas generates an estimated $100 million
+              annualy, making it the fifth-largest underground sex economy in America. The traffic(k) is
+              all around us and it's time to start fighting it. 
+			{% endeditable_text %}
+		</div>
 	  </div>
+	  <div class="row contentrow" style="margin-top: 50px;">
+		<div class="col-sm-8 col-xs-12 content-text">
+		  {% editable_text "light section", hint: "The text belonging in the 'light' section immediately after the 'dark' section" %}
+				Yet, there is hope.  Through the mercy and power of Jesus Christ, Reclaimed intends to educate and equip the local church to fight
+				trafficking where they are.  This entails the devlopment of educational campaigns designed to raise awareness of the scope of the
+				problem of sex trafficking, and prepare the church to fight it.  It also includes both internal and external
+		  {% endeditable_text %}
+		</div>				
 
-	  <div class="row contentrow">
+		<div class="col-sm-4 hidden-xs content-image" >
 
-		<div class="col-sm-10 col-sm-offset-1">
-
-			<div class="row">
-
-				<div class="col-sm-8 col-xs-12 content-text">
-				  {% editable_text "light section", hint: "The text belonging in the 'light' section immediately after the 'dark' section" %}
-						Yet, there is hope.  Through the mercy and power of Jesus Christ, Reclaimed intends to educate and equip the local church to fight
-						trafficking where they are.  This entails the devlopment of educational campaigns designed to raise awareness of the scope of the
-						problem of sex trafficking, and prepare the church to fight it.  It also includes both internal and external
-				  {% endeditable_text %}
-				</div>				
-
-				<div class="col-sm-4 hidden-xs content-image" >
-
-					<img src="{{ 'home/hook_2.png' | theme_image_url | resize: '300x' }}" alt="A sad image" />
-
-				</div>
-
-			</div>
+			<!--<img src="{{ 'home/Homepage-Ads-Medium-Hope.jpg' | theme_image_url }}" alt="A sad image" />-->
 
 		</div>
-
+	  </div>
 	</div>
 
 
@@ -230,61 +194,69 @@ editable_elements:
 
 	  
 
-	<section id="slide-2" class="slide">
 
-		<div class="bcg" style="background-image:url('{{ 'Dallas_Skyline.jpg' | theme_image_url }}'); height:1000px"
+		<div class="row bcg" style="background-image:url('{{ 'home/Homepage-Footer-Dallas-Dawn.jpg' | theme_image_url }}');"
 			>
 
-			<div class="row contentrow" id="imglinks">
-
-				<div class="col-sm-12 col-md-8 col-md-offset-2">				
+			<div class="row contentrow center" id="imglinks">			
 
 					<div class="col-sm-4 col-xs-12">          
 					  <a href="/redefine">
-					    <img src="{{ 'home/home_redefine.png' | theme_image_url }}" alt="Redefine" />
+					    <img src="{{ 'home/Homepage-Ads-Small-Redefine.jpg' | theme_image_url }}" alt="Redefine" />
 					  </a>
 					</div>
 
-					<div class="col-sm-4 col-xs-12">          
-					  <a href="/restore">
-						<img src="{{ 'home/home_restore.png' | theme_image_url }}" alt="Restore" />
-					  </a>
+					<div class="col-sm-4 col-xs-12"
+					data-toggle="popover" title="Coming Soon!" data-placement="top"
+					>          
+					  
+						<img src="{{ 'home/Homepage-Ads-Small-Restore.jpg' | theme_image_url }}" alt="Restore" />
+					  
 					</div>
 
-					<div class="col-sm-4 col-xs-12">          
-					  <a href="reach">
-						<img src="{{ 'home/home_reach.png' | theme_image_url }}" alt="Reach" />
-					  </a>
-					</div>
+					<div class="col-sm-4 col-xs-12"
+					data-toggle="popover" title="Coming Soon!" data-placement="top"
+					> 
 
-				</div>
+						<img src="{{ 'home/Homepage-Ads-Small-Reach.jpg' | theme_image_url }}" alt="Reach" />
+					</div>
 
 			</div>	
 
 			<div class="row">
 				<div class="col-sm-6">  
 
-					<div style="background-image:url('{{ 'home/upcoming_events.png' | theme_image_url | resize: '400x280'}}'); width:400px; height:280px" class="text-center center bg-image clickable" id="nextEvent">
+					<div 
+					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-Events.jpg' | theme_image_url }}'); width:374px; height:200px;"
+					   class="text-center center bg-image row" 
+					   id="nextEvent"
+					 >
+					<a href="https://www.google.com/calendar/embed?src=67gfi1ooq8ie2rs1h5smhmm2pg%40group.calendar.google.com">
+					 	<div class="evtText bg-opaque-invert center">
 
-						<h4>Upcoming Events</h4>
+						  <div class="evtTitle"></div>
 
-						<div class="evtTitle"></div>
+						  <div class="evtDate"></div>
 
-						<div class="evtDate"></div>
-
-						<div class="evtLoc"></div>
-
-						
-
+						  <div class="evtLoc"></div>
+						</div>
+					</a>
 					</div>
-
 				</div>
 
+				<div class="col-sm-6">  
+					<div 
+					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-News.jpg' | theme_image_url }}'); width:374px; height:200px;"
+					  class="text-center center bg-image clickable row"
+					  data-toggle="popover" title="Coming Soon!" data-content="News stories will be available shortly!" data-placement="top"
+					  id="nextEvent"
+					 >
+					</div>
+				</div>
 			</div>	
 
 		</div>
 
-	</section>
 
 {% endblock %}
 </div>
@@ -301,9 +273,7 @@ editable_elements:
 
     <!-- Javascripts -->
 
-    
-
-	<script type='text/javascript'>
+    <script type='text/javascript'>
 
 		window.cfgUrl = "{{ 'config.js' | javascript_url }}".split('?')[0];
 
