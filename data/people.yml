@@ -2,45 +2,45 @@
 - Sheetal Agrawal:
     _slug: sheetal-agrawal
     blurb: Sheetal likes football.
-    image: "/samples/people/sheetal-agrawal/600x300.jpg"
+    image: /samples/people/sheetal-agrawal/600x300.jpg
     order: 1
 - Christy Chermak:
     _slug: christy-chermak
     blurb: Christy helped found the sex trafficking dteam.
-    image: "/samples/people/christy-chermak/600x300.jpg"
+    image: /samples/people/christy-chermak/600x300.jpg
     order: 2
 - Lisa Lopez:
     _slug: lisa-lopez
     blurb: Lisa has been to Congo and South Sudan.
-    image: "/samples/people/lisa-lopez/600x300.jpg"
+    image: /samples/people/lisa-lopez/600x300.jpg
     order: 3
 - Sylvia McCallum:
     _slug: sylvia-mccallum
     blurb: Sylvia is a resident at Watermark.
-    image: "/samples/people/sylvia-mccallum/600x300.jpg"
+    image: /samples/people/sylvia-mccallum/600x300.jpg
     order: 4
 - Taylor Fuller Almquist:
     _slug: taylor-fuller-almquist
     blurb: She got married this summer!
-    image: "/samples/people/taylor-fuller-almquist/600x300.jpg"
-    order: 5
-- Stephanie Woody:
-    _slug: stephanie-woody
-    blurb: Stephanie is going to design our logo.
-    image: "/samples/people/stephanie-woody/600x300.jpg"
-    order: 5
-- Brian Murray:
-    _slug: brian-murray
-    blurb: Brian joined the team in September.
-    image: "/samples/people/brian-murray/600x300.jpg"
-    order: 5
-- Kristin Mercer:
-    _slug: kristin-mercer
-    blurb: Kristin helped design the website.
-    image: "/samples/people/kristin-mercer/600x300.jpg"
+    image: /samples/people/taylor-fuller-almquist/600x300.jpg
     order: 5
 - Benson Hines:
     _slug: benson-hines
     blurb: Benson married Cate!
-    image: "/samples/people/benson-hines/600x300.jpg"
+    image: /samples/people/benson-hines/600x300.jpg
+    order: 5
+- Brian Murray:
+    _slug: brian-murray
+    blurb: Brian joined the team in September.
+    image: /samples/people/brian-murray/600x300.jpg
+    order: 5
+- Kristin Mercer:
+    _slug: kristin-mercer
+    blurb: Kristin helped design the website.
+    image: /samples/people/kristin-mercer/600x300.jpg
+    order: 5
+- Stephanie Woody:
+    _slug: stephanie-woody
+    blurb: Stephanie is going to design our logo.
+    image: /samples/people/stephanie-woody/600x300.jpg
     order: 5
