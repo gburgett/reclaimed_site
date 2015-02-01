@@ -105,7 +105,7 @@ editable_elements:
 	  {% block main %}
 
 
-		<div class="row bcg" style="background-image:url('{{ 'home/Homepage-Header-Girl-in-Airport-Edit.jpg' | theme_image_url }}');"
+		<div class="row bcg" style="background-image:url('{{ 'home/Homepage-Header-Girl-in-Airport-Edit.jpg' | theme_image_url | resize: '1440x' }}');"
 			>
 
 			<div class="row">
@@ -156,7 +156,7 @@ editable_elements:
 	  <div class="row contentrow">
 		<div class="col-sm-4 hidden-xs content-image" >
 
-			<img src="{{ 'home/Homepage-Ads-Medium-Dallas-Is-Bad-Traffic_06.jpg' | theme_image_url  }}" alt="Dallas' Bad Traffic" />
+			<img src="{{ 'home/Homepage-Ads-Medium-Dallas-Is-Bad-Traffic_06.jpg' | theme_image_url | resize: '374x' }}" alt="Dallas' Bad Traffic" />
 
 		</div>
 
@@ -182,7 +182,7 @@ editable_elements:
 
 		<div class="col-sm-4 hidden-xs content-image" >
 
-			<!--<img src="{{ 'home/Homepage-Ads-Medium-Hope.jpg' | theme_image_url }}" alt="A sad image" />-->
+			<!--<img src="{{ 'home/Homepage-Ads-Medium-Hope.jpg' | theme_image_url | resize: '374x' }}" alt="A sad image" />-->
 
 		</div>
 	  </div>
@@ -195,14 +195,14 @@ editable_elements:
 	  
 
 
-		<div class="row bcg" style="background-image:url('{{ 'home/Homepage-Footer-Dallas-Dawn.jpg' | theme_image_url }}');"
+		<div class="row bcg" style="background-image:url('{{ 'home/Homepage-Footer-Dallas-Dawn.jpg' | theme_image_url | resize: '1440x' }}');"
 			>
 
 			<div class="row contentrow center" id="imglinks">			
 
 					<div class="col-sm-4 col-xs-12">          
 					  <a href="/redefine">
-					    <img src="{{ 'home/Homepage-Ads-Small-Redefine.jpg' | theme_image_url }}" alt="Redefine" />
+					    <img src="{{ 'home/Homepage-Ads-Small-Redefine.jpg' | theme_image_url | resize: '244x' }}" alt="Redefine" />
 					  </a>
 					</div>
 
@@ -210,7 +210,7 @@ editable_elements:
 					data-toggle="popover" title="Coming Soon!" data-placement="top"
 					>          
 					  
-						<img src="{{ 'home/Homepage-Ads-Small-Restore.jpg' | theme_image_url }}" alt="Restore" />
+						<img src="{{ 'home/Homepage-Ads-Small-Restore.jpg' | theme_image_url | resize: '244x' }}" alt="Restore" />
 					  
 					</div>
 
@@ -218,7 +218,7 @@ editable_elements:
 					data-toggle="popover" title="Coming Soon!" data-placement="top"
 					> 
 
-						<img src="{{ 'home/Homepage-Ads-Small-Reach.jpg' | theme_image_url }}" alt="Reach" />
+						<img src="{{ 'home/Homepage-Ads-Small-Reach.jpg' | theme_image_url | resize: '244x' }}" alt="Reach" />
 					</div>
 
 			</div>	
@@ -227,7 +227,7 @@ editable_elements:
 				<div class="col-sm-6">  
 
 					<div 
-					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-Events.jpg' | theme_image_url }}'); width:374px; height:200px;"
+					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-Events.jpg' | theme_image_url | resize: '374x' }}'); width:374px; height:200px;"
 					   class="text-center center bg-image row" 
 					   id="nextEvent"
 					 >
@@ -246,7 +246,7 @@ editable_elements:
 
 				<div class="col-sm-6">  
 					<div 
-					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-News.jpg' | theme_image_url }}'); width:374px; height:200px;"
+					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-News.jpg' | theme_image_url | resize: '374x' }}'); width:374px; height:200px;"
 					  class="text-center center bg-image clickable row"
 					  data-toggle="popover" title="Coming Soon!" data-content="News stories will be available shortly!" data-placement="top"
 					  id="nextEvent"

@@ -111,6 +111,7 @@ html, body {
 .bg-opaque-invert {
 	background-color: hsla(0, 100%, 0%, 0.75);
 	border-radius: 12px;
+	color: white;
 }
 
 .bg-image {
@@ -138,7 +139,6 @@ html, body {
 .evtText {
 	margin-top: 125px;
 	width: 80%;
-	color: white;
 }
 
 .linkset a {
