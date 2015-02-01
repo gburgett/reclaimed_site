@@ -19,7 +19,7 @@ html, body {
 	background-color: black;
 	color: white;
 	text-align: center;
-	background-size:cover;
+	background-size: 100% 100%;
 }
 
 .navbar {
@@ -43,10 +43,6 @@ html, body {
 
 .big-text {
 	font-size: x-large;
-}
-
-.banner a:link {
-	color:lime;
 }
 
 .center {
@@ -133,19 +129,16 @@ html, body {
 }
 
 .bg-opaque {
-	background-color: hsla(0, 100%, 100%, 0.75);
+	background-color: hsla(0, 100%, 100%, 0.8);
 	border-radius: 12px;
+	font-weight: bold;
+	font-size: 20;
+	color:black;
 }
 
 .bg-opaque-invert {
 	background-color: hsla(0, 100%, 0%, 0.75);
 	border-radius: 12px;
-}
-
-.bg-opaque .content-text span {
-	font-weight: bold;
-	font-size: 20;
-	color:orange;
 }
 
 .bg-image {

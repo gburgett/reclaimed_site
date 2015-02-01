@@ -3,7 +3,7 @@ require.config({
 	baseUrl: jsHome,
 	paths: {
 		async: 'plugins/async',
-        goog: 'plugins/goog',
+        googleapi: 'lib/googleapi',
 		propertyParser: 'plugins/propertyParser',
 		"bootstrap": "lib/bootstrap.min",
 		"skrollr": "lib/skrollr.min",
