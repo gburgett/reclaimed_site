@@ -92,8 +92,42 @@ html, body {
 	padding-bottom: 20px;
 }
 
+.contentrow h3 {
+	margin-left: -10px;
+	font-family: Century Gothic, sans-serif;
+}
+
+.contentrow h4 {
+	font-family: Century Gothic, sans-serif;
+}
+
 .content-image {
 	overflow:hidden;
+}
+
+.quote {
+	font-style: oblique;
+	overflow: hidden;
+	margin-left: 25px;
+	margin-bottom: 30px;
+}
+
+.quote blockquote p {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.quote .quote-source {
+	float: right;
+}
+
+.quote-source :before{
+	content: "-";
+}
+
+.innerquote {
+	width: 70%;
+	padding-left: 15%;
 }
 
 .nobg {
