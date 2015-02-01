@@ -38,4 +38,6 @@ require(['jquery', 'skrollr', 'modules/gcal'], function( $, skrollr, GCal ) {
 			});
 		}
 	});
+
+	$('[data-toggle="popover"]').popover()
 });

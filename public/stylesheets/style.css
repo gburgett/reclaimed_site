@@ -22,6 +22,10 @@ html, body {
 	background-size:cover;
 }
 
+.navbar {
+	margin-bottom: 0;
+}
+
 .main {
 	padding-bottom:40px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -68,15 +72,12 @@ html, body {
     padding: 0 8%;
     text-align: center
 }
+
 .bcg {
+	min-height: 750px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed !important;
-    background-size: cover !important;
-    height: 100%;
-    width: 100%;
 }
-
 
 .slide .contentrow  > div{
 	font-size: 14pt;
@@ -136,6 +137,11 @@ html, body {
 	border-radius: 12px;
 }
 
+.bg-opaque-invert {
+	background-color: hsla(0, 100%, 0%, 0.75);
+	border-radius: 12px;
+}
+
 .bg-opaque .content-text span {
 	font-weight: bold;
 	font-size: 20;
@@ -162,11 +168,11 @@ html, body {
 #nextEvent h4 {
 	padding-right: 100px;
 	padding-top: 40px;
-	margin-bottom: 40px;
 }
 
-#nextEvent div {
-	margin-top: 20px;
+.evtText {
+	margin-top: 125px;
+	width: 80%;
 }
 
 .linkset a {
@@ -203,4 +209,18 @@ html, body {
 
 .story-listing {
 	text-align: center
+}
+
+@media (min-width: 700px) {
+	.bcg {
+	    background-attachment: fixed !important;
+	    background-size: cover !important;
+	}
+}
+
+@media (max-width: 700px)  {
+	.bcg {
+	    background-attachment: fixed !important;
+	    background-size: 100% 100% !important;
+	}
 }
