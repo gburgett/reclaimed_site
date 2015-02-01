@@ -166,6 +166,7 @@ html, body {
 .evtText {
 	margin-top: 125px;
 	width: 80%;
+	color: white;
 }
 
 .linkset a {

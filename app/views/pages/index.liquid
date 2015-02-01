@@ -208,16 +208,19 @@ editable_elements:
 					  </a>
 					</div>
 
-					<div class="col-sm-4 col-xs-12">          
-					  <a href="/restore">
+					<div class="col-sm-4 col-xs-12"
+					data-toggle="popover" title="Coming Soon!" data-placement="top"
+					>          
+					  
 						<img src="{{ 'home/Homepage-Ads-Small-Restore.jpg' | theme_image_url }}" alt="Restore" />
-					  </a>
+					  
 					</div>
 
-					<div class="col-sm-4 col-xs-12">          
-					  <a href="reach">
+					<div class="col-sm-4 col-xs-12"
+					data-toggle="popover" title="Coming Soon!" data-placement="top"
+					> 
+
 						<img src="{{ 'home/Homepage-Ads-Small-Reach.jpg' | theme_image_url }}" alt="Reach" />
-					  </a>
 					</div>
 
 			</div>	
@@ -227,9 +230,10 @@ editable_elements:
 
 					<div 
 					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-Events.jpg' | theme_image_url }}'); width:374px; height:200px;"
-					   class="text-center center bg-image clickable row" 
+					   class="text-center center bg-image row" 
 					   id="nextEvent"
 					 >
+					<a href="https://www.google.com/calendar/embed?src=67gfi1ooq8ie2rs1h5smhmm2pg%40group.calendar.google.com">
 					 	<div class="evtText bg-opaque-invert center">
 
 						  <div class="evtTitle"></div>
@@ -238,6 +242,7 @@ editable_elements:
 
 						  <div class="evtLoc"></div>
 						</div>
+					</a>
 					</div>
 				</div>
 
@@ -270,9 +275,7 @@ editable_elements:
 
     <!-- Javascripts -->
 
-    
-	<script src="http://apis.google.com/js/client.js?onload=OnLoadCallback"></script>
-	<script type='text/javascript'>
+    <script type='text/javascript'>
 
 		window.cfgUrl = "{{ 'config.js' | javascript_url }}".split('?')[0];
 

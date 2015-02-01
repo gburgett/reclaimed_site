@@ -21,9 +21,6 @@ require(['jquery', 'skrollr', 'modules/gcal', 'bootstrap'], function( $, skrollr
 			$("#nextEvent .evtDate").text(new Date(entry.start.dateTime).toLocaleString());
 			$("#nextEvent .evtDesc").html(entry.description);
 
-			$("#nextEvent").click(function(){
-				window.location = entry.htmlLink;
-			});
 		}
 	});
 });
