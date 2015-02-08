@@ -47,7 +47,12 @@ html, body {
 }
 
 .center {
-	margin:0 auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.row.center {
+	margin: 0 auto;
 	text-align: center;
 }
 
@@ -164,6 +169,9 @@ html, body {
 	cursor:pointer;
 }
 
+#homepage-footer .row div {
+	margin-bottom: 10px;
+}
 
 #nextEvent h4 {
 	padding-right: 100px;
@@ -211,16 +219,31 @@ html, body {
 	text-align: center
 }
 
-@media (min-width: 700px) {
+@media (min-width: 721px) {
 	.bcg {
 	    background-attachment: fixed !important;
 	    background-size: cover !important;
 	}
+
+	#redefine-header-text {
+		width: 60%;
+	}
 }
 
-@media (max-width: 700px)  {
+@media (max-width: 720px)  {
+	img { 
+		max-width: 100%; 
+		height: auto;
+	}
+
 	.bcg {
+		min-height: 500px;
 	    background-attachment: fixed !important;
 	    background-size: 100% 100% !important;
+	}
+
+	.row {
+		margin-left: inherit;
+		margin-right: inherit;
 	}
 }

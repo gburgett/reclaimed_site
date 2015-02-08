@@ -1,0 +1,48 @@
+@media (min-width: 721px) {
+
+	#homepage-header {
+		background-image:url(../images/home/Homepage-Header-Girl-In-Airport-1440.jpg);
+	}
+
+	#logo-img{
+		background-image:url(../images/home/Homepage-Logo-Transparent.png);
+		margin-top: 125px;
+		margin-left: 50px;
+		max-width: 451px;
+		height: 115px;
+	}
+
+	#homepage-ads-1 {
+		background-image:url(../images/home/Homepage-Ads-Medium-Dallas-Is-Bad-Traffic_06.jpg)
+		height:374px;
+	}
+
+	/*#homepage-ads-2 {
+		background-image:url(../images/home/Homepage-Ads-Medium-?.jpg)
+		height:374px;
+	}*/
+
+	#homepage-footer {
+		background-image:url(../images/home/Homepage-Footer-Dallas-Dawn-1440.jpg)
+	}
+
+	#redefine-header{
+		background-image:url(../images/redefine/Landing-Page-Headers-Redefine.jpg);
+		height:480px;
+	}
+}
+
+@media (max-width: 720px)  {
+	#homepage-header {
+		background-image:url(../images/home/Homepage-Header-Girl-In-Airport-720.jpg);
+	}
+
+	#homepage-footer {
+		background-image:url(../images/home/Homepage-Footer-Dallas-Dawn-720.jpg)
+	}
+
+	#redefine-header{
+		background-image:url(../images/redefine/Landing-Page-Headers-Redefine-720.jpg);
+		height:281px;
+	}
+}

@@ -37,6 +37,8 @@ editable_elements:
 
 	{{ 'style.css' | stylesheet_tag }}
 
+	{{ 'images.css' | stylesheet_tag }}
+
 	<link rel="icon" href="{{ 'favicon.jpg' | theme_image_url }}" />
 
     <!--[if lt IE 9]>
@@ -91,13 +93,10 @@ editable_elements:
 	  {% block main %}
 
 
-		<div class="row bcg" style="background-image:url('{{ 'home/Homepage-Header-Girl-in-Airport-Edit.jpg' | theme_image_url | resize: '1440x' }}');"
-			>
+		<div class="row bcg" id="homepage-header">
 
-			<div class="row">
-				<img src="{{ 'home/Homepage-Logo-Transparent.png' | theme_image_url }}" 
-				  style="margin-top: 125px; margin-left: 50px;" 
-				/>
+			<div class="row" id="logo-img">
+				
 			</div>
 
 		</div>
@@ -118,7 +117,7 @@ editable_elements:
 
 	<div class="col-sm-10 col-sm-offset-1">
 	  <div class="row contentrow">
-		<div class="col-sm-4 hidden-xs content-image" >
+		<div class="col-sm-4 hidden-xs content-image" id="homepage-ads-1" >
 
 			<img src="{{ 'home/Homepage-Ads-Medium-Dallas-Is-Bad-Traffic_06.jpg' | theme_image_url | resize: '374x' }}" alt="Dallas' Bad Traffic" />
 
@@ -147,7 +146,7 @@ editable_elements:
 		  {% endeditable_text %}
 		</div>				
 
-		<div class="col-sm-4 hidden-xs content-image" >
+		<div class="col-sm-4 hidden-xs content-image" id="homepage-ads-2" >
 
 			<!--<img src="{{ 'home/Homepage-Ads-Medium-Hope.jpg' | theme_image_url | resize: '374x' }}" alt="A sad image" />-->
 
@@ -162,8 +161,7 @@ editable_elements:
 	  
 
 
-		<div class="row bcg" style="background-image:url('{{ 'home/Homepage-Footer-Dallas-Dawn.jpg' | theme_image_url | resize: '1440x' }}');"
-			>
+		<div class="row bcg" id="homepage-footer">
 
 			<div class="row contentrow center" id="imglinks">			
 
@@ -190,11 +188,11 @@ editable_elements:
 
 			</div>	
 
-			<div class="row">
+			<div class="row center">
 				<div class="col-sm-6">  
 
 					<div 
-					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-Events.jpg' | theme_image_url | resize: '374x' }}'); width:374px; height:200px;"
+					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-Events.jpg' | theme_image_url | resize: '374x' }}'); max-width:374px; height:200px;"
 					   class="text-center center bg-image row" 
 					   id="nextEvent"
 					 >
@@ -213,7 +211,7 @@ editable_elements:
 
 				<div class="col-sm-6">  
 					<div 
-					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-News.jpg' | theme_image_url | resize: '374x' }}'); width:374px; height:200px;"
+					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-News.jpg' | theme_image_url | resize: '374x' }}'); max-width:374px; height:200px;"
 					  class="text-center center bg-image clickable row"
 					  data-toggle="popover" title="Coming Soon!" data-content="News stories will be available shortly!" data-placement="top"
 					  id="nextEvent"
