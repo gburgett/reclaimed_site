@@ -45,4 +45,40 @@
 		background-image:url(../images/redefine/Landing-Page-Headers-Redefine-720.jpg);
 		height:281px;
 	}
+
+	#logo-img{
+		background-image:url(../images/home/Mobile-Homepage-Logo-Transparent.png);
+		margin-top: 190px;
+		margin-left: 0px;
+		max-width: 375px;
+		height: 128px;
+	}
+}
+
+@media (max-width: 400px){
+	#homepage-header {
+		background-image:url(../images/home/Mobile-Homepage-Header-Girl-in-Airport-Edit.jpg);
+	}
+
+	#homepage-footer {
+		background-image:url(../images/home/Mobile-Homepage-Footer-Dallas-Dawn.jpg)
+	}
+
+	#redefine-header{
+		background-image:url(../images/redefine/Mobile-Landing-Page-Headers-Redefine-375.jpg);
+		height:281px;
+	}
+	
+}
+
+@media (max-width: 349px) {
+	#logo-img {
+		margin-left: -15px;
+	}
+}
+
+@media(max-width: 330px){
+	#logo-img {
+		background-image: none;
+	}
 }
