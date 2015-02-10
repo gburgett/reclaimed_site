@@ -169,7 +169,11 @@ html, body {
 	cursor:pointer;
 }
 
-#homepage-footer .row div {
+#skrollr-text-1 {
+	font-size: 14pt;
+}
+
+#skrollr-text-1 .row div {
 	margin-bottom: 10px;
 }
 
@@ -237,7 +241,7 @@ html, body {
 	}
 
 	.bcg {
-		min-height: 500px;
+		min-height: 640px;
 	    background-attachment: fixed !important;
 	    background-size: 100% 100% !important;
 	}
