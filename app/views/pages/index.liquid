@@ -31,7 +31,7 @@ editable_elements:
 
 
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     {{ 'bootstrap.css' | stylesheet_tag }}
 
@@ -181,12 +181,12 @@ editable_elements:
 	  <div class="row center">
 				<div class="col-sm-6">  
 
-					<div 
-					  style="background-image:url('{{ 'home/Homepage-Ads-Medium-Events.jpg' | theme_image_url | resize: '374x' }}'); max-width:374px; height:200px;"
-					   class="text-center center bg-image row" 
-					   id="nextEvent"
-					 >
 					<a href="https://www.google.com/calendar/embed?src=67gfi1ooq8ie2rs1h5smhmm2pg%40group.calendar.google.com">
+					  <div 
+					    style="background-image:url('{{ 'home/Homepage-Ads-Medium-Events.jpg' | theme_image_url | resize: '374x' }}'); max-width:374px; height:200px;"
+					    class="text-center center bg-image row" 
+					    id="nextEvent"
+					   >
 					 	<div class="evtText bg-opaque-invert center">
 
 						  <div class="evtTitle"></div>
@@ -195,8 +195,8 @@ editable_elements:
 
 						  <div class="evtLoc"></div>
 						</div>
+					  </div>
 					</a>
-					</div>
 				</div>
 
 				<div class="col-sm-6">  

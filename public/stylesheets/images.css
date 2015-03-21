@@ -55,7 +55,7 @@
 	}
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : portrait){
+@media only screen and (min-width : 320px) and (max-width : 736px) and (orientation : portrait){
 	#homepage-header {
 		background-image:url(../images/home/Mobile-Homepage-Header-Girl-in-Airport-Edit.jpg);
 	}
@@ -68,7 +68,6 @@
 		background-image:url(../images/redefine/Mobile-Landing-Page-Headers-Redefine-375.jpg);
 		height:281px;
 	}
-	
 }
 
 @media (max-width: 349px) {
