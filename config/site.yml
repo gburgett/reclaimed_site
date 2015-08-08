@@ -1,6 +1,9 @@
 ---
 name: reclaimed
 locales: [en]
-subdomain: reclaimed-test
-domains: [reclaimed-test.locomotivehosting.com]
-timezone: UTC
+subdomain: reclaimed
+domains: [www.reclaimed431.org, reclaimed.locomotivehosting.com]
+seo_title: Reclaimed
+meta_keywords: Jesus, Christ, Christian, Christianity, sex, trafficking, human, slavery,
+  prostitution, porn
+timezone: Central Time (US & Canada)

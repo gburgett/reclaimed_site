@@ -19,11 +19,6 @@
     blurb: Sylvia is a resident at Watermark.
     image: /samples/people/sylvia-mccallum/600x300.jpg
     order: 4
-- Taylor Fuller Almquist:
-    _slug: taylor-fuller-almquist
-    blurb: She got married this summer!
-    image: /samples/people/taylor-fuller-almquist/600x300.jpg
-    order: 5
 - Benson Hines:
     _slug: benson-hines
     blurb: Benson married Cate!
@@ -38,6 +33,11 @@
     _slug: kristin-mercer
     blurb: Kristin helped design the website.
     image: /samples/people/kristin-mercer/600x300.jpg
+    order: 5
+- Taylor Fuller Almquist:
+    _slug: taylor-fuller-almquist
+    blurb: She got married this summer!
+    image: /samples/people/taylor-fuller-almquist/600x300.jpg
     order: 5
 - Stephanie Woody:
     _slug: stephanie-woody

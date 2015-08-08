@@ -29,7 +29,9 @@
 	#redefine-header{
 		background-image:url(../images/redefine/Landing-Page-Headers-Redefine.jpg);
 		height:480px;
-	}
+	}	#reach-header{
+		background-image:url(../images/reach/Landing-Page-Headers-Reach.jpg);
+      height:480px;}
 }
 
 @media (max-width: 720px)  {

@@ -1,32 +1,162 @@
 ---
-- test4:
-    _slug: test4
-    phone: 999-555-1234
-    email: abc@def.com
-    comment: hopefully the email is sent...
-    interested_in_classes: false
-    interested_in_other: true
-    other: Something else entirely!
-- test3:
-    _slug: test3
-    phone: ''
-    email: abc@def.com
-    comment: another question
+- Jeremy West:
+    _slug: jeremy-west
+    phone: 972-822-9808
+    email: jeremywest@westvideproductions.com
+    comment: I am a member at Watermark church and interested in your organization..and
+      knowing more.
     interested_in_classes: true
     interested_in_other: true
-    other: ''
-- test2:
-    _slug: test2
-    phone: ''
-    email: abc@def.com
-    comment: blahblah
+    other: Interested in knowing more about your organization and involvement
+- Ryan Massad:
+    _slug: ryan-massad
+    phone: '2144029108'
+    email: ryanmassad2@gmail.com
+    comment: ! "How can I serve? What does the commitment look like? I'm very passionate
+      about helping!\r\n\r\nThank you,"
+    interested_in_classes: false
+    interested_in_other: true
+    other: Serving
+- Donna:
+    _slug: donna-1
+    phone: Donna
+    email: cbfbly@tom.com
+    comment: ! 'I was just looking at your Contact Us - reclaimed      | website and
+      see that your site has the potential to become very popular. I just want to
+      tell you, In case you didn''t already know... There is a website network which
+      already has more than 16 million users, and the majority of the users are looking
+      for topics like yours. By getting your site on this network you have a chance
+      to get your site more visitors than you can imagine. It is free to sign up and
+      you can read more about it here: http://www.arvut.org/1/dft - Now, let me ask
+      you... Do you need your website to be successful to maintain your way of life?
+      Do you need targeted visitors who are interested in the services and products
+      you offer? Are looking for exposure, to increase sales, and to quickly develop
+      awareness for your site? If your answer is YES, you can achieve these things
+      only if you get your site on the service I am describing. This traffic service
+      advertises you to thousands, while also giving you a chance to test the network
+      before paying anything at all. All the popular sites are using this network
+      to boost their readership and ad revenue! Why aren’t you? And what is better
+      than traffic? It’s recurring traffic! That''s how running a successful website
+      works... Here''s to your success! Read more here: http://gf10.com.br/url/iq2f'
     interested_in_classes: false
     interested_in_other: false
-- test:
-    _slug: test
-    phone: 999-999-9999
-    email: abc@def.com
-    comment: I have a question.
+    other: Donna
+- Lauren Bufkin:
+    _slug: lauren-bufkin
+    phone: '4322667552'
+    email: bufkin.lauren@gmail.com
+    comment: ! "Hi! I would love information on what this organization is doing how
+      the community can volunteer/help with your efforts!\r\n\r\nThanks!"
     interested_in_classes: false
     interested_in_other: false
-    other: Something else entirely!
+- Ashley Beall-Sarris:
+    _slug: ashley-beall-sarris-1
+    phone: '9032271812'
+    email: ashleybeallsarris@yahoo.com
+    comment: I am currently pursuing a Master’s degree at SMU in Dispute Resolution
+      and Conflict Management. A few of my classmates and I are looking for opportunities
+      for an internship that might fit in with Reclaimed. We need to have a proposal
+      together by Friday so I wanted to see if there are any open opportunities within
+      your organization. Please email me at ashleybeallsarris@yahoo.com or call me
+      at 903-227-1812 and let me know if you have any openings. Thank you in advance
+      for your help.
+    interested_in_classes: false
+    interested_in_other: true
+    other: Internship
+- Ashley Beall-Sarris:
+    _slug: ashley-beall-sarris
+    phone: '9032271812'
+    email: ashleybeallsarris@yahoo.com
+    comment: I am currently pursuing a Master’s degree at SMU in Dispute Resolution
+      and Conflict Management. A few of my classmates and I are looking for opportunities
+      for an internship that might fit in with Reclaimed. We need to have a proposal
+      together by Friday so I wanted to see if there are any open opportunities within
+      your organization. Please email me at ashleybeallsarris@yahoo.com or call me
+      at 903-227-1812 and let me know if you have any openings. Thank you in advance
+      for your help.
+    interested_in_classes: false
+    interested_in_other: true
+    other: Internship
+- Donna:
+    _slug: donna
+    phone: Donna
+    email: ryulwtj@tom.com
+    comment: ! 'I was just looking at your Contact Us - reclaimed      | site and
+      see that your site has the potential to get a lot of visitors. I just want to
+      tell you, In case you don''t already know... There is a website network which
+      already has more than 16 million users, and the majority of the users are looking
+      for topics like yours. By getting your website on this network you have a chance
+      to get your site more popular than you can imagine. It is free to sign up and
+      you can read more about it here: http://www.urlator.co/w7uk - Now, let me ask
+      you... Do you need your site to be successful to maintain your business? Do
+      you need targeted traffic who are interested in the services and products you
+      offer? Are looking for exposure, to increase sales, and to quickly develop awareness
+      for your site? If your answer is YES, you can achieve these things only if you
+      get your website on the service I am describing. This traffic network advertises
+      you to thousands, while also giving you a chance to test the service before
+      paying anything. All the popular websites are using this network to boost their
+      readership and ad revenue! Why aren’t you? And what is better than traffic?
+      It’s recurring traffic! That''s how running a successful site works... Here''s
+      to your success! Read more here: http://www.kaktusit.com/a252'
+    interested_in_classes: false
+    interested_in_other: false
+    other: Donna
+- Chaney Shadrock:
+    _slug: chaney-shadrock
+    phone: '2105420492'
+    email: chaney.shadrock@gmail.com
+    comment: Hi there! I was wanting to learn more about Reclaimed 431's volunteer
+      opportunities. Thank you!
+    interested_in_classes: false
+    interested_in_other: true
+    other: Volunteer
+- Laetitia:
+    _slug: laetitia
+    phone: Laetitia
+    email: pcssyp@dayrep.com
+    comment: ! 'Hi, my name is Laetitia and I am the sales manager at CorpSEO marketing.
+      I was just looking at your Contact Us - reclaimed      | website and see that
+      your site has the potential to become very popular. I just want to tell you,
+      In case you don''t already know... There is a website network which already
+      has more than 16 million users, and the majority of the users are interested
+      in topics like yours. By getting your site on this service you have a chance
+      to get your site more popular than you can imagine. It is free to sign up and
+      you can find out more about it here: http://gf10.com.br/url/iq2f - Now, let
+      me ask you... Do you need your website to be successful to maintain your way
+      of life? Do you need targeted traffic who are interested in the services and
+      products you offer? Are looking for exposure, to increase sales, and to quickly
+      develop awareness for your website? If your answer is YES, you can achieve these
+      things only if you get your site on the network I am describing. This traffic
+      network advertises you to thousands, while also giving you a chance to test
+      the service before paying anything. All the popular blogs are using this service
+      to boost their traffic and ad revenue! Why aren’t you? And what is better than
+      traffic? It’s recurring traffic! That''s how running a successful website works...
+      Here''s to your success! Find out more here: http://www.kaktusit.com/a252'
+    interested_in_classes: false
+    interested_in_other: false
+    other: Laetitia
+- Catherine:
+    _slug: catherine
+    phone: Catherine
+    email: menqhseqs@dayrep.com
+    comment: ! 'Hi, my name is Catherine and I am the marketing manager at StarSEO
+      Marketing. I was just looking at your Contact Us - reclaimed      | site and
+      see that your website has the potential to become very popular. I just want
+      to tell you, In case you don''t already know... There is a website network which
+      already has more than 16 million users, and most of the users are looking for
+      niches like yours. By getting your site on this service you have a chance to
+      get your site more popular than you can imagine. It is free to sign up and you
+      can read more about it here: http://bbqr.me/ij - Now, let me ask you... Do you
+      need your website to be successful to maintain your way of life? Do you need
+      targeted visitors who are interested in the services and products you offer?
+      Are looking for exposure, to increase sales, and to quickly develop awareness
+      for your website? If your answer is YES, you can achieve these things only if
+      you get your site on the service I am talking about. This traffic service advertises
+      you to thousands, while also giving you a chance to test the network before
+      paying anything. All the popular blogs are using this network to boost their
+      readership and ad revenue! Why aren’t you? And what is better than traffic?
+      It’s recurring traffic! That''s how running a successful website works... Here''s
+      to your success! Read more here: http://tf3.info/nf'
+    interested_in_classes: false
+    interested_in_other: false
+    other: Catherine
