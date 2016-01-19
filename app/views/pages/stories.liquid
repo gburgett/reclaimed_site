@@ -17,13 +17,13 @@ position: 1
 		<div class="row story-archive" >
 			<div class="col-md-4">
 				{% if story.image.url %}
-					<a href="/stories/{{ story._slug }}">
+					<a href="{% path_to story %}">
 					<img src="{{ story.image.url | resize: '300x' }}" alt="{{ story.title | escape }}" />
 					</a>
 				{% endif %}			
 			</div>
 			<div class="col-md-6 col-md-offset-1" >
-				<a href="/stories/{{ story._slug }}"><h4>{{ story.title | escape }}</h4></a>
+				<a href="{% path_to story %}"><h4>{{ story.title | escape }}</h4></a>
 				<div class="teaser">{{ story.teaser }}</div>
 			</div>
 		</div>

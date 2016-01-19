@@ -2,3 +2,4 @@
 config/deploy.yml
 Gemfile.lock
 /.push-tmp/
+.vagrant/
