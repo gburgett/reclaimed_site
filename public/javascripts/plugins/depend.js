@@ -12,6 +12,7 @@
 
 
 
+
 define(function () {
 
     var rParts = /^(.*)\[([^\]]*)\]$/;

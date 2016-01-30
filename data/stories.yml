@@ -1,7 +1,9 @@
 ---
 - Reclaimed T-Shirt Design Contest:
     _slug: reclaimed-t-shirt-design-contest
-    _visible: false
+    seo_title: Reclaimed T-Shirt Design Contest
+    meta_description: Are you a fashion-forward freedom fighter? If so, you could
+      help us design our first tshirt!
     teaser: <p>Are you a fashion-forward freedom fighter? If so, you could help us
       design our first tshirt!</p>
     body: ! "<h2>Are you a fashion-forward freedom fighter?&nbsp;</h2>\r\n<p>If so,
@@ -10,23 +12,26 @@
       ministry efforts such as events, equipping nights. serving opportunities, etc...
       The rules are simple. Email your tshirt design to&nbsp;<a href=\"mailto:reclaimed@watermark.org\">reclaimed@watermark.org</a>&nbsp;as
       a PDF or image file (no working Adobe files please) along with your full name,
-      email address, and phone number by mightnight the night of&nbsp;<strong>Sept.
-      30, 2015.</strong> The guidelines are below.</p>\r\n<h2 style=\"text-align:
-      center;\">Design Elements</h2>\r\n<ul>\r\n<li><strong>The Reclaimed logo</strong>
-      can be used on either the front or the back of the shirt.</li>\r\n<li>Stay away
-      from graphics that allude to slavery such as <strong>chains.</strong></li>\r\n<li><strong></strong><strong>Colors:</strong>&nbsp;Our
+      email address, and phone number by mightnight the night of <strong>Nov. 15,&nbsp;2015.</strong>
+      The guidelines are below.</p>\r\n<h2 style=\"text-align: center;\">Design Elements</h2>\r\n<ul>\r\n<li><strong>The
+      Reclaimed logo</strong> can be used on either the front or the back of the shirt.</li>\r\n<li><strong>The
+      heart:&nbsp;</strong>We always want our messaging to not only acknowledge the
+      deep pain of trafficking but also reflect the great hope we have in Christ.&nbsp;
+      For that reason, we stay away from graphics that paint solely a dark picture,
+      such as&nbsp;chains, handcuffs or bars.</li>\r\n<li><strong></strong><strong>Colors:</strong>&nbsp;<span>Our
       current colors are an array of tealhues, grey, white, and black. You do not
       have to use this color combination, but we would warn against using large amounts
-      of red or black in the t-shirt design. RGB codes are below.</li>\r\n<ul>\r\n<li>Reclaimed
-      Teal 1: 82, 162, 122</li>\r\n<li>Reclaimed Teal 2:&nbsp;152, 244, 195</li>\r\n</ul>\r\n</ul>\r\n<h2
-      style=\"text-align: center;\">Themes</h2>\r\n<ul>\r\n<li><strong>Isaiah 43:1
-      i</strong>s a verse near and dear to our hearts. You may incorporate this verse
-      in whole or render a graphic interpretation of it.</li>\r\n<li>Graphic interpretations
-      of our three pillars (redefine, restore, and reach) can also be included.</li>\r\n</ul>\r\n<p>We
-      can't wait to see what you come up with! Remember to have your designs in by<strong>
-      Sept. 30, 2015.</strong> Happy designing!</p>"
-    image: /samples/stories/reclaimed-t-shirt-design-contest/Tshirt_Contest_Blog_Pic.jpg
-    posted_at: 08/07/2015 05:00
+      of red or black in the t-shirt design, for the same reason we listed above.
+      RGB codes are below</span>.</li>\r\n<ul>\r\n<li>Reclaimed Teal 1: 82, 162, 122</li>\r\n<li>Reclaimed
+      Teal 2:&nbsp;152, 244, 195</li>\r\n</ul>\r\n</ul>\r\n<h2 style=\"text-align:
+      center;\">Themes</h2>\r\n<ul>\r\n<li><strong>Isaiah 43:1 i</strong>s a verse
+      near and dear to our hearts. You may incorporate this verse in whole or render
+      a graphic interpretation of it.</li>\r\n<li>Graphic interpretations of our three
+      pillars (redefine, restore, and reach) can also be included.</li>\r\n</ul>\r\n<p><span>We
+      can't wait to see what you come up with! Remember to have your designs in by</span><strong>&nbsp;<strong>Nov.
+      15,</strong> 2015.</strong><span>&nbsp;Happy designing!</span></p>"
+    image: /samples/stories/reclaimed-t-shirt-design-contest/Landing-Page-Headers.jpg
+    posted_at: 10/01/2015 22:00
 - Bacon story - from back office:
     _slug: bacon-story-from-back-office
     teaser: <p>This is a test story I created in the back office. &nbsp;It's about
@@ -80,4 +85,4 @@
       meatloaf capicola. Incididunt esse aute id aliquip porchetta consectetur ham
       hamburger nulla.</p>"
     image: /samples/stories/bacon-story-from-back-office/i_love_bacon.jpeg
-    posted_at: 12/18/2014 10:45
+    posted_at: 12/18/2014 16:45

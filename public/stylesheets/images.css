@@ -13,7 +13,7 @@
 	}
 
 	#homepage-ads-1 {
-		background-image:url(../images/home/Homepage-Ads-Medium-Dallas-Is-Bad-Traffic_06.jpg);
+		background-image:url(../images/home/Homepage-Ads-Medium-Dallas-Is-Bad-Traffic_06.jpg)
 		height:374px;
 	}
 
@@ -59,11 +59,11 @@
 
 @media only screen and (min-width : 320px) and (max-width : 736px) and (orientation : portrait){
 	#homepage-header {
-		background-image:url(../images/home/Mobile-Homepage-Header-Girl-in-Airport-1440.jpg);
+		background-image:url(../images/home/Mobile-Homepage-Header-Girl-in-Airport-Edit.jpg);
 	}
 
 	#homepage-footer {
-		background-image:url(../images/home/Mobile-Homepage-Footer-Dallas-Dawn-1440.jpg)
+		background-image:url(../images/home/Mobile-Homepage-Footer-Dallas-Dawn.jpg)
 	}
 
 	#redefine-header{

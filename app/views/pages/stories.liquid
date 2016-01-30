@@ -1,8 +1,8 @@
 ---
 title: Stories
 slug: stories
-listed: false
-published: false
+listed: true
+published: true
 cache_strategy: none
 response_type: text/html
 position: 1
@@ -17,13 +17,13 @@ position: 1
 		<div class="row story-archive" >
 			<div class="col-md-4">
 				{% if story.image.url %}
-					<a href="{% path_to story %}">
-					<img src="{{ story.image.url | resize: '300x' }}" alt="{{ story.title | escape }}" />
+					<a href="/stories/{{ story._slug }}">
+					<img src="{{ story.image.url | resize: '400x' }}" alt="{{ story.title | escape }}" />
 					</a>
 				{% endif %}			
 			</div>
 			<div class="col-md-6 col-md-offset-1" >
-				<a href="{% path_to story %}"><h4>{{ story.title | escape }}</h4></a>
+				<a href="/stories/{{ story._slug }}"><h4>{{ story.title | escape }}</h4></a>
 				<div class="teaser">{{ story.teaser }}</div>
 			</div>
 		</div>
